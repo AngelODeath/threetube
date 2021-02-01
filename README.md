@@ -1,6 +1,6 @@
-# sapper-template
+# ThreeTube
 
-The default template for setting up a [Sapper](https://github.com/sveltejs/sapper) project. Can use either Rollup or webpack as bundler.
+A streaming server and UI built with Svelte. Using webpack as bundler.
 
 
 ## Getting started
