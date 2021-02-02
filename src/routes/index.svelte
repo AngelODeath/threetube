@@ -37,10 +37,11 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>ThreeTube Streaming Server</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+
+<h1>ThreeTube!</h1>
 
 <figure>
 	<img alt="Success Kid" src="{successkid}">

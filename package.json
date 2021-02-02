@@ -1,1 +1,31 @@
-{"name":"threetube","version":"1.0.0","description":"A modern streaming server. Includes a neat UI.","main":"index.js","author":"Gabri Botha","license":"MIT","scripts":{"dev":"sapper dev","build":"sapper build","export":"sapper export","start":"node __sapper__/build"},"dependencies":{"compression":"^1.7.1","polka":"next","sirv":"^1.0.0"},"devDependencies":{"file-loader":"^6.0.0","sapper":"^0.28.0","svelte":"^3.17.3","svelte-loader":"^2.9.0","webpack":"^4.7.0","webpack-modules":"^1.0.0"}}
+{
+  "name": "threetube",
+  "version": "1.0.0",
+  "description": "A modern streaming server. Includes a neat UI.",
+  "author": "Gabri Botha",
+  "license": "MIT",
+  "scripts": {
+    "dev": "sapper dev",
+    "build": "sapper build",
+    "export": "sapper export",
+    "start": "node __sapper__/build"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "compression": "^1.7.1",
+    "knex": "^0.21.17",
+    "mysql2": "^2.2.5",
+    "pg": "^8.5.1",
+    "polka": "^1.0.0-next.11",
+    "sirv": "^1.0.11",
+    "sqlite3": "^5.0.1"
+  },
+  "devDependencies": {
+    "file-loader": "^6.0.0",
+    "sapper": "^0.28.0",
+    "svelte": "^3.17.3",
+    "svelte-loader": "^2.9.0",
+    "webpack": "^4.7.0",
+    "webpack-modules": "^1.0.0"
+  }
+}
