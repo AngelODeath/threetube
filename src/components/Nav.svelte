@@ -53,5 +53,6 @@
 		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">ThreeTube</a></li>
 		<li><a aria-current="{segment === 'discover' ? 'page' : undefined}" href="discover">Discover</a></li>
 		<li><a aria-current="{segment === 'account' ? 'page' : undefined}" href="account">Account</a></li>
+		<li><a aria-current="{segment === 'add' ? 'page' : undefined}" href="add">Add</a></li>
 	</ul>
 </nav>

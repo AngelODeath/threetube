@@ -1,6 +1,6 @@
 <script context="module">
 	export function preload() {
-		return this.fetch(`blog.json`).then(r => r.json()).then(posts => {
+		return this.fetch(`account.json`).then(r => r.json()).then(posts => {
 			return { posts };
 		});
 	}
@@ -18,7 +18,7 @@
 </style>
 
 <svelte:head>
-	<title>Blog</title>
+	<title>Account</title>
 </svelte:head>
 
 <h1>Recent posts</h1>
